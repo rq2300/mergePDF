@@ -7,7 +7,7 @@ directory = "./2020_taxe"
 # Convert Cover Page to pdf
 cover = FPDF()
 cover.add_page()
-cover.set_font("Arial", size = 15)
+cover.set_font("Arial", size = 12)
 
 with open(os.path.join(directory,"cover.txt"), "r") as file:
     for x in file:
